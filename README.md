@@ -14,21 +14,21 @@ Business leaders need more than overall sales totals to make effective decisions
 
 This project addresses three core business problems:
 
-1. Product Performance
+### 1. Product Performance
 
 The business wants to understand what's driving sales performance.
 
 Final Business Problem:
 Analyze product category performance to identify which categories contribute the most revenue and profitability, and recommend where the business should focus future sales efforts.
 
-2. Pricing Strategy
+### 2. Pricing Strategy
 
 The business is concerned that its pricing strategy may be affecting profitability.
 
 Final Business Problem:
 Analyze the relationship between discount percentages, revenue, and profitability to determine whether current pricing strategies are maximizing business performance.
 
-3. Quarterly Sales Trends
+### 3. Quarterly Sales Trends
 
 The business wants to understand how sales performance is changing each quarter.
 
@@ -37,17 +37,18 @@ Analyze Quarter-over-Quarter sales performance to identify revenue trends, seaso
 
 ---
 
-🎯 Project Objective
+## 🎯 Project Objective
 
 The objective of this analysis was to transform raw sales transaction data into a structured decision-making tool that could help a business answer three major questions:
 
-* Which product categories generate the strongest revenue and profitability?
-* How do discount levels affect revenue and profit margins?
-* How has sales performance changed quarter-over-quarter?
+- Which product categories generate the strongest revenue and profitability?
+- How do discount levels affect revenue and profit margins?
+- How has sales performance changed quarter-over-quarter?
 
 The analysis also aimed to move beyond high-level trends by investigating specific areas of profitability risk when the data indicated that additional analysis was necessary.
 
-Business Questions Answered
+### Business Questions Answered
+
 1. Which product categories generate the highest revenue and profit?
 2. Which regions contribute most strongly to overall business performance?
 3. Which customer segments represent opportunities for additional growth?
@@ -57,86 +58,82 @@ Business Questions Answered
 7. What factors contributed to the 2026 Q2 slowdown?
 8. Which products contributed most strongly to profitability deterioration within South Office Supplies?
 
+---
 
-📊 Dataset Overview
+## 📊 Dataset Overview
 
-Attribute	Description
+| Attribute | Description |
+|---|---|
+| **Source** | Synthetic sales transaction dataset generated with ChatGPT for this portfolio project |
+| **Raw Rows** | 50,000 transactions |
+| **Cleaned Rows** | 49,802 transactions |
+| **Columns** | 19 |
+| **Time Period** | January 1, 2023 – May 29, 2026 |
+| **Regions** | West, Northeast, South, Midwest |
+| **Primary Analysis Areas** | Product performance, regional performance, discount strategy, quarterly sales trends |
+| **Data Type** | Transaction-level sales data |
 
-Source	Synthetic sales transaction dataset generated with ChatGPT for this portfolio project
+### Key Variables
 
-Raw Rows	50,000 transactions
-
-Cleaned Rows	49,802 transactions
-
-Columns	19
-
-Time Period	January 1, 2023 – May 29, 2026
-
-Regions	West, Northeast, South, Midwest
-
-Primary Analysis Areas	Product performance, regional performance, discount strategy, quarterly sales trends
-
-Data Type	Transaction-level sales data
-
-Key Variables
 The dataset includes:
 
-Transaction ID
-Customer ID
-Product ID
-Sales Representative ID
-Transaction Date
-Region
-State
-Sales Channel
-Customer Segment
-Product Category
-Product Name
-Units Sold
-Unit Price
-Discount Percentage
-Revenue
-Cost
-Profit
-Payment Method
-Order Status
+- Transaction ID
+- Customer ID
+- Product ID
+- Sales Representative ID
+- Transaction Date
+- Region
+- State
+- Sales Channel
+- Customer Segment
+- Product Category
+- Product Name
+- Units Sold
+- Unit Price
+- Discount Percentage
+- Revenue
+- Cost
+- Profit
+- Payment Method
+- Order Status
 
-Data Quality Notes
+### Data Quality Notes
+
 The raw dataset was intentionally generated with data-quality issues to create a realistic data-cleaning workflow.
 
 The cleaning and auditing process included:
 
-* Removing duplicate records
-* Standardizing capitalization and extra spaces
-* Standardizing date formats
-* Applying consistent numeric, currency, and percentage formatting
-* Identifying blank/null values
-* Identifying negative values for further review
+- Removing duplicate records
+- Standardizing capitalization and extra spaces
+- Standardizing date formats
+- Applying consistent numeric, currency, and percentage formatting
+- Identifying blank/null values
+- Identifying negative values for further review
 
 A total of 198 duplicate records were removed, reducing the dataset from 50,000 raw transactions to 49,802 cleaned transactions.
 
 Some missing values remained in the cleaned dataset and were handled appropriately during analysis rather than automatically being removed.
 
-Limitations
-* The dataset is synthetic and does not represent the performance of an actual company.
-* The 2026 period is incomplete, with transactions available only through May 29, 2026.
-* Some fields contain missing values, requiring query-specific treatment during analysis.
-* Findings demonstrate analytical methodology and business reasoning rather than actual company performance.
+### Limitations
+- The dataset is synthetic and does not represent the performance of an actual company.
+- The 2026 period is incomplete, with transactions available only through May 29, 2026.
+- Some fields contain missing values, requiring query-specific treatment during analysis.
+- Findings demonstrate analytical methodology and business reasoning rather than actual company performance.
 
+---
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
-Tool	Purpose
-Excel	Data cleaning, formatting, validation, duplicate removal, and initial data-quality review
+| Tool | Purpose |
+|---|---|
+| **Excel** | Data cleaning, formatting, validation, duplicate removal, and initial data-quality review |
+| **SQL / Google BigQuery** | Data extraction, aggregation, segmentation, profitability analysis, and business-question analysis |
+| **Tableau** | Interactive dashboard development, KPI reporting, trend visualization, and exploratory analysis |
+| **Google Slides** | Executive presentation and communication of findings and recommendations |
 
-SQL / Google BigQuery	Data extraction, aggregation, segmentation, profitability analysis, and business-question analysis
+---
 
-Tableau	Interactive dashboard development, KPI reporting, trend visualization, and exploratory analysis
-
-Google Slides	Executive presentation and communication of findings and recommendations
-
-
-🔄 Methodology
+## 🔄 Methodology
 Raw Transaction Data
         ↓
 Excel Data Cleaning
@@ -155,8 +152,9 @@ Business Insights
         ↓
 Executive Recommendations
 
+---
 
-Ask — Define the Business Problems
+## Ask — Define the Business Problems
 
 The analysis began by translating broad stakeholder concerns into specific analytical questions.
 
@@ -172,15 +170,17 @@ Clarification focused on:
 
 This established the three primary analysis areas: Product Performance, Pricing Strategy, and Quarterly Sales Trends.
 
+---
 
-Prepare — Understand and Clean the Data
+## Prepare — Understand and Clean the Data
 
 The original dataset contained 50,000 transaction records and was intentionally created with data-quality issues.
 
 Excel was used to inspect and prepare the dataset before analysis.
 
+---
 
-Process — Clean and Standardize
+## Process — Clean and Standardize
 The Excel cleaning process included:
 
 * Using AutoFit Column Width/Height to improve readability and presentation consistency.
@@ -193,8 +193,9 @@ The Excel cleaning process included:
 
 The resulting cleaned dataset contained 49,802 transactions.
 
+---
 
-Analyze — SQL & Business Analysis
+## Analyze — SQL & Business Analysis
 The cleaned data was analyzed in Google BigQuery using SQL.
 
 Queries were structured around the three stakeholder problems rather than simply performing general exploratory analysis.
@@ -214,8 +215,9 @@ ORDER BY
 Null handling
 Multi-dimensional product, region, customer segment, discount, and time-period analysis
 
+---
 
-Share — Tableau Visualization
+## Share — Tableau Visualization
 The findings were converted into an interactive Tableau dashboard containing:
 
 Revenue
@@ -229,12 +231,13 @@ Quarterly Revenue Trends
 Quarterly Profit Margin Trends
 Product-Level Profitability Drill-Downs
 
+---
 
-Act — Business Recommendations
+## Act — Business Recommendations
 The final stage converted analytical findings into specific actions that management could evaluate when planning sales, pricing, and profitability strategies.
 
 
-📈 Dashboard Preview
+## 📈 Dashboard Preview
 Sales Growth & Revenue Opportunity Analysis
 
 The Tableau dashboard consolidates the three business problems into one interactive decision-making tool.
@@ -340,8 +343,9 @@ The broader category-level decline does not necessarily require a broad category
 Business implication:
 Product-level investigation can allow management to address specific profitability problems without unnecessarily changing the strategy for an entire category.
 
+---
 
-💼 Business Impact
+## 💼 Business Impact
 This project demonstrates how transaction-level sales data can be converted into a structured framework for business decision-making.
 
 The analysis can help leadership:
@@ -355,8 +359,9 @@ The analysis can help leadership:
 
 📌 In short: this project turns raw sales transactions into a decision-making tool for identifying growth opportunities, protecting profitability, and investigating performance risks before taking action.
 
+---
 
-🚀 Recommendations
+## 🚀 Recommendations
 
 Recommendation	Why It Matters
 Prioritize Software growth opportunities | Software leads product categories in both revenue and profitability
@@ -373,8 +378,9 @@ Investigate the 2026 sales slowdown	| Q2 2026 shows declines in revenue, complet
 
 Use product-level interventions when losses are concentrated | The South Office Supplies analysis shows that a small number of products can drive broader profitability deterioration
 
+---
 
-🔮 Next Steps
+## 🔮 Next Steps
 This analysis provides a foundation for continued sales and profitability monitoring.
 
 Potential extensions include:
@@ -388,8 +394,9 @@ Potential extensions include:
 * Sales forecasting — use historical quarterly trends to estimate future demand after additional complete periods become available.
 * Dashboard refresh automation — develop a repeatable process for incorporating new transaction data into reporting.
 
+---
 
-📁 Project Structure
+## 📁 Project Structure
 Sales-Growth-Revenue-Opportunity-Analysis/
 │
 ├── Data/
@@ -412,13 +419,15 @@ Sales-Growth-Revenue-Opportunity-Analysis/
 
 Update the filenames above to match the exact names you use when uploading the files to GitHub.
 
+---
 
-⭐ Skills Demonstrated
+## ⭐ Skills Demonstrated
 
 Business Analysis Data Cleaning Excel SQL Google BigQuery Tableau Data Visualization Dashboard Design KPI Development Requirement Gathering Stakeholder Communication Profitability Analysis Pricing Analysis Sales Analytics Problem Solving Data Storytelling
 
+---
 
-📚 Key Takeaways
+## 📚 Key Takeaways
 
 This project reinforced that strong data analysis begins before writing SQL or building a dashboard. Broad stakeholder concerns first had to be translated into clear business objectives, metrics, scope, and success criteria.
 
