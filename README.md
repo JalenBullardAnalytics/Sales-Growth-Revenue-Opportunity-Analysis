@@ -412,17 +412,15 @@ Sales-Growth-Revenue-Opportunity-Analysis/
 │   └── Sales_Growth_Revenue_Opportunity_Analysis.sql
 │
 ├── Tableau/
-│   └── Tableau dashboard files
+│   └── Sales_Growth_Revenue_Opportunity_Analysis.twbx
 │
-├── Images/
-│   └── Dashboard screenshots
+├── Dashboard/
+│   └── Sales_Growth_Revenue_Opportunity_Analysis_Dashboard.png
 │
 ├── Presentation/
-│   └── Sales_Growth_Revenue_Opportunity_Analysis_Presentation
+│   └── Sales_Growth_Revenue_Opportunity_Analysis_Presentation.pdf
 │
 └── README.md
-
-Update the filenames above to match the exact names you use when uploading the files to GitHub.
 
 ---
 
