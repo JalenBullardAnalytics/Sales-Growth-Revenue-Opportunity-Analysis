@@ -7,6 +7,7 @@ This project analyzes 49,802 cleaned sales transactions to understand what is dr
 The project was designed to simulate a realistic business analytics workflow: beginning with an intentionally dirty dataset, preparing and validating the data in Excel, analyzing business questions with SQL in Google BigQuery, and translating the findings into an interactive Tableau dashboard and executive recommendations.
 
 
+
 📌 Business Problem
 
 Business leaders need more than overall sales totals to make effective decisions. They need to understand which products and regions are generating profitable growth, how pricing decisions affect margins, and whether sales performance is improving or declining over time.
