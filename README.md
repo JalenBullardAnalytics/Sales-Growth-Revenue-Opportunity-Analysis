@@ -402,6 +402,9 @@ Potential extensions include:
 ---
 
 ## 📁 Project Structure
+## 📁 Project Structure
+
+```text
 Sales-Growth-Revenue-Opportunity-Analysis/
 │
 ├── Data/
@@ -421,6 +424,7 @@ Sales-Growth-Revenue-Opportunity-Analysis/
 │   └── Sales_Growth_Revenue_Opportunity_Analysis_Presentation.pdf
 │
 └── README.md
+```
 
 ---
 
