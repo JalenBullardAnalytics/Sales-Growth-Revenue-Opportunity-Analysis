@@ -1,4 +1,4 @@
-📈 Sales Growth & Revenue Opportunity Analysis
+# 📈 Sales Growth & Revenue Opportunity Analysis
 
 An end-to-end sales analysis transforming raw transactional data into actionable insights on product performance, pricing strategy, profitability, and quarterly sales trends.
 
@@ -8,7 +8,7 @@ The project was designed to simulate a realistic business analytics workflow: be
 
 ---
 
-📌 Business Problem
+## 📌 Business Problem
 
 Business leaders need more than overall sales totals to make effective decisions. They need to understand which products and regions are generating profitable growth, how pricing decisions affect margins, and whether sales performance is improving or declining over time.
 
@@ -35,6 +35,7 @@ The business wants to understand how sales performance is changing each quarter.
 Final Business Problem:
 Analyze Quarter-over-Quarter sales performance to identify revenue trends, seasonal patterns, and opportunities that can support future sales planning and business decision-making.
 
+---
 
 🎯 Project Objective
 
