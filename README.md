@@ -404,7 +404,7 @@ Potential extensions include:
 ## 📁 Project Structure
 Sales-Growth-Revenue-Opportunity-Analysis/
 │
-├**Data** /
+├── Data/
 │   ├── Sales_Transaction_dirty.xlsx
 │   └── Sales_Transaction_clean.xlsx
 │
