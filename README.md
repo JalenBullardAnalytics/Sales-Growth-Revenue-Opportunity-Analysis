@@ -236,6 +236,7 @@ Product-Level Profitability Drill-Downs
 ## Act — Business Recommendations
 The final stage converted analytical findings into specific actions that management could evaluate when planning sales, pricing, and profitability strategies.
 
+---
 
 ## 📈 Dashboard Preview
 Sales Growth & Revenue Opportunity Analysis
@@ -257,90 +258,94 @@ Product Category
 Discount Range
 Transaction Year
 Transaction Quarter
-🔍 Key Findings
-1. Software is the strongest-performing product category
 
-What happened:
+---
+
+## 🔍 Key Findings
+
+### 1. Software is the strongest-performing product category
+
+**What happened:**
 Software generated approximately $69.2M in revenue and $39.2M in profit, producing a 56.8% profit margin.
 
-Why it matters:
+**Why it matters:**
 Software combines strong revenue contribution with the highest profitability among the analyzed product categories.
 
-Business implication:
+**Business implication:**
 Software represents an important area for future sales opportunities while maintaining strong margins.
 
-2. The West is the strongest-performing region
+### 2. The West is the strongest-performing region
 
-What happened:
+**What happened:**
 The West generated approximately $77.7M in revenue and $38.8M in profit, with a profit margin of approximately 49.9%.
 
-Why it matters:
+**Why it matters:**
 The region leads the business in both revenue and profitability.
 
-Business implication:
+**Business implication:**
 The factors contributing to West's performance should be investigated for opportunities that may be transferable to other regions.
 
-3. Software performs particularly strongly in the West
+### 3. Software performs particularly strongly in the West
 
-What happened:
+**What happened:**
 West Software generated approximately $24.5M in revenue, $15.1M in profit, and a 61.7% profit margin.
 
-Why it matters:
+**Why it matters:**
 The combination of a high-performing product category and high-performing region produces particularly strong profitability.
 
-Business implication:
+**Business implication:**
 Future sales efforts can prioritize Software opportunities, particularly within the West, while evaluating whether similar conditions can be replicated elsewhere.
 
-4. Higher discounts are associated with lower profitability
+### 4. Higher discounts are associated with lower profitability
 
-What happened:
+**What happened:**
 Profit margins declined across product categories as discount levels increased.
 
 At the highest discount level of 30% or more, some categories experienced particularly weak profitability.
 
-Why it matters:
+**Why it matters:**
 Discounting may support sales activity, but excessive discounting can significantly reduce the profitability of those sales.
 
-Business implication:
+**Business implication:**
 Discount policies should account for differences in product-category profitability rather than applying the same discount strategy universally.
 
-5. Office Supplies becomes unprofitable at high discount levels
+### 5. Office Supplies becomes unprofitable at high discount levels
 
-What happened:
+**What happened:**
 Office Supplies reached approximately -13.7% profit margin at discount levels of 30% or more.
 
-Why it matters:
+**Why it matters:**
 Sales generated under these conditions can contribute revenue while destroying profitability.
 
-Business implication:
+**Business implication:**
 High-discount Office Supplies transactions warrant tighter controls and additional pricing investigation.
 
-6. Q2 2026 experienced a significant sales slowdown
+### 6. Q2 2026 experienced a significant sales slowdown
 
-What happened:
+**What happened:**
 Revenue decreased from approximately $19.3M in Q1 2026 to $10.0M in Q2 2026.
 
 Completed orders also declined from approximately 2.9K to 2.3K.
 
 Profit margin decreased from approximately 42.9% to 41.6%.
 
-Why it matters:
+**Why it matters:**
 The decline affected both sales volume and revenue, making it important to distinguish between normal seasonality and a broader performance issue.
 
-Business implication:
+**Business implication:**
 The business should investigate customer segments, regions, sales channels, and order behavior contributing to the decline before assuming it represents a long-term trend.
 
-7. South Office Supplies revealed a concentrated profitability issue
+### 7. South Office Supplies revealed a concentrated profitability issue
 
-What happened:
+**What happened:**
 A deeper investigation of South Office Supplies showed that the profitability decline was concentrated among a relatively small number of products.
 
 Presentation Binder 926 was the largest negative contributor, moving from approximately +$1.5K profit in Q1 2025 to -$11.4K in Q2 2025.
 
-Why it matters:
+**Why it matters:**
 The broader category-level decline does not necessarily require a broad category-wide response.
 
-Business implication:
+**Business implication:**
 Product-level investigation can allow management to address specific profitability problems without unnecessarily changing the strategy for an entire category.
 
 ---
